@@ -15,7 +15,7 @@ A longer term aim might become to explore how this type of "platform" might be u
 1. Install [Jupyter notebooks](http://jupyter.org/install.html)
 1. Grab a copy of this repository
 1. Create a file caled *config.json* outside of the Indicators directory
-> This file specifies the connection to your Moodle database and looks something like (see [sqlalchemy page](http://docs.sqlalchemy.org/en/latest/core/engines.html#database-urls) for more detail
+  This file specifies the connection to your Moodle database and looks something like (see [sqlalchemy page](http://docs.sqlalchemy.org/en/latest/core/engines.html#database-urls) for more detail  
 
   {
     "drivername": "postgresql",
