@@ -3,8 +3,12 @@ import json
 from sqlalchemy.engine.url import URL 
 from sqlalchemy import create_engine
 
+import os
+import sys
+
 def connect():
-    CONFIG='../config.json';
+
+    CONFIG='/Applications/mappstack-5.6.30-1/apache2/htdocs/moodle/config.json';
 
     with open(CONFIG) as f:
         conf = json.load(f)
@@ -15,7 +19,7 @@ def connect():
 
 
 def config():
-    CONFIG='../lms.json';
+    CONFIG='/Applications/mappstack-5.6.30-1/apache2/htdocs/moodle/lms.json';
 
     with open(CONFIG) as f:
         conf = json.load(f)
